@@ -41,7 +41,7 @@ The models_token table can hold coins with status TOKENS which are updated (Refl
 Pair address is automatically created Wallet which stores 2 type of tokens. One is the newly minted token and other is more renowned token Like - WBNB (Which has a flutucating Price and is Main or Native token of BSC Blockchain) BUSD, USDT (Stable coins, price is always $1 per token ) and can be others too ( but are very less ). So a Pair Address has some number of token0 and token1.
 
 So pair Address has 2 entities one newly created and one which is know. The Known Coins (WBNB/BUSD/USDT) provides Liquidity. <br>
-so Basically Liquidity = Number of WBNB/BUSD/USDT
+so Basically Liquidity = Number of WBNB/BUSD/USDT or Number of token1 in Pair Address
 
 and since it has 2 Token one know and other newly minted token which is token0 and token1 provides liquidity, <br>
 Price of the Token (in USD ) is =  ((Number of token1 Coins * Price of token1 in USD ) / Number of token0 Coins) 
