@@ -1,0 +1,20 @@
+{
+    "NODE": "wss://speedy-nodes-nyc.moralis.io/e0e209d49b1f18c073c8c7d0/bsc/mainnet/ws",
+
+    "WALLET ADDRESS": "0xf6906b14b2ab2a870a136e91ea8607a4bb75aa03", 
+    "PRIVATE KEY": "0x108762dd0705bbcb485ead054d95ec426c03ed8a74ae22d2232592faa90a74fe",
+
+    "SWAP FROM": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+
+    "SELL MODE": "true",
+    "BUY AMOUNT": "0.0001",
+    "SELL AT": "1",
+    "STOP LOSS": "0",
+
+    "ANTI BOT": "false",
+    "DELAY BLOCKS": "2",
+
+    "MIN LIQUIDITY": "5",
+    "GAS PRICE": "5", 
+    "GAS LIMIT": "350000"      
+}
