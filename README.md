@@ -40,15 +40,15 @@ The models_token table can hold coins with status TOKENS which are updated (Refl
 ## Understanding Pair Address, Liquidity & Price : 
 Pair address is automatically created Wallet which stores 2 type of tokens. One is the newly minted token and other is more renowned token Like - WBNB (Which has a flutucating Price and is Main or Native token of BSC Blockchain) BUSD, USDT (Stable coins, price is always $1 per token ) and can be others too ( but are very less ). So a Pair Address has some number of token0 and token1.
 
-So pair Address has 2 entities one newly created and one which is know. The Known Coins (WBNB/BUSD/USDT) provides Liquidity. 
+So pair Address has 2 entities one newly created and one which is know. The Known Coins (WBNB/BUSD/USDT) provides Liquidity. <br>
 so Basically Liquidity = Number of WBNB/BUSD/USDT
 
-and since it has 2 Token one know and other newly minted token which is token0 and token1 provides liquidity, 
+and since it has 2 Token one know and other newly minted token which is token0 and token1 provides liquidity, <br>
 Price of the Token (in USD ) is =  ((Number of token1 Coins * Price of token1 in USD ) / Number of token0 Coins) 
 
-since BUSD and UDST are always $1, Price of token When token1 is BUSD or USDT = (Number of token1 Coins / Number of token0 Coins) 
+since BUSD and UDST are always $1, Price of token When token1 is BUSD or USDT = (Number of token1 Coins / Number of token0 Coins) <br>
 and Price of Token when token1 is WBNB = (( Number of token1 Coins * Price of BNB in USD )/ Number of token0 Coins) 
 
 ## Understanding Market Cap : 
-Market cap is Simply the total Value ot a token if its liquidated. so, 
+Market cap is Simply the total Value ot a token if its liquidated. so, <br>
 Market Cap (in USD) = Total Supply * Price of Token in USD 
